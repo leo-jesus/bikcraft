@@ -83,10 +83,10 @@
   }
 
   /* Introdução Interna */
-  .introducao-interna {
-    margin-top: 0px;
-  }
-  .introducao_produtos {
+  .introducao-interna,
+  .introducao_produtos,
+  .introducao_contatos,
+  .introducao_portfolio {
     margin-top: 0px;
   }
 
@@ -138,6 +138,12 @@
 
   .orcamento_dados ul {
     padding-right: 0;
+  }
+
+  /* Contato */
+  .contato_form {
+    padding-right: 0;
+    margin-bottom: 40px;
   }
   /* Final do estilo para smartphone */
 }
