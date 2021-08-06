@@ -9,3 +9,7 @@ if (window.SimpleSlide) {
     time: 7000,
   });
 }
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}

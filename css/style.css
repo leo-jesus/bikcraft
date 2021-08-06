@@ -405,13 +405,13 @@ img {
   transition: 5s;
 }
 
-[data-slide-nav] {
+.js [data-slide-nav] {
   display: block;
   text-align: center;
   margin-top: 20px;
 }
 
-[data-slide-nav] button {
+.js [data-slide-nav] button {
   display: inline-block;
   width: 12px;
   height: 12px;
@@ -424,6 +424,18 @@ img {
   background: #1d1d1d;
 }
 
-[data-slide-nav] button.active {
+.js [data-slide-nav] button.active {
   background: #fec63e;
+}
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: 800ms;
 }
